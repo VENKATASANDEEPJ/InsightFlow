@@ -27,7 +27,8 @@ Chart.js – Data visualization
 
 📸 Preview
 
-(Add screenshots of your dashboard here later)
+<img width="1919" height="941" alt="image" src="https://github.com/user-attachments/assets/504944fa-561a-4731-95f0-85c6028b3a94" />
+
 
 Example:
 
