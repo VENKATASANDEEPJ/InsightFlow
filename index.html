@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>InsightFlow Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="dashboard">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h2 class="logo">InsightFlow</h2>
+        <nav>
+            <ul>
+                <li>Dashboard</li>
+                <li>Analytics</li>
+                <li>Reports</li>
+                <li>Settings</li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <!-- Top Summary Cards -->
+        <section class="cards-section">
+            <div class="card">
+  <span class="label">Users</span>
+  <h2 class="number" data-target="12450">0</h2>
+</div>
+
+<div class="card">
+  <span class="label">Revenue</span>
+  <h2 class="number" data-target="98300">0</h2>
+</div>
+
+<div class="card">
+  <span class="label">Growth</span>
+  <h2 class="number" data-target="18">0</h2>
+</div>
+
+<div class="card">
+  <span class="label">Sessions</span>
+  <h2 class="number" data-target="4320">0</h2>
+</div>
+
+        </section>
+
+        <!-- Charts Area -->
+        <section class="charts-section">
+    <div class="chart-box">
+    <h3>Performance Overview</h3>
+    <canvas id="lineChart"></canvas>
+</div>
+
+<div class="chart-box">
+    <h3>Sales Comparison</h3>
+    <canvas id="barChart"></canvas>
+</div>
+
+
+
+
+
+        <!-- Data Table -->
+        <section class="table-section">
+<div class="table-box">
+    <h3>Recent Activity</h3>
+    <p>Table content will appear here</p>
+</div>
+        </section>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+<script src="chart.js"></script>
+
+</body>
+</html>
